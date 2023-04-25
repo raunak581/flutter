@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
         child: Text(
           "this is the fisrt ",
           style: TextStyle(
-            fontStyle: FontStyle.italic,
+            fontStyle: FontStyle.normal,
           ),
         ),
       ),
