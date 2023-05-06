@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -46,6 +44,12 @@ class DrawerPage extends StatelessWidget {
               color: Colors.black,
             ),
             title: Text("Mail", textScaleFactor: 1),
+          ),
+          const ListTile(
+            leading: Icon(
+              CupertinoIcons.person_add,
+              color: Colors.black,
+            ),
           )
         ],
       ),
