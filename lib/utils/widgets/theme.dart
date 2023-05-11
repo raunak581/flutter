@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 class Mytheme {
   static ThemeData lighttheme(BuildContext context) => ThemeData(
         primarySwatch: Colors.purple,
-        fontFamily: GoogleFonts.lato().fontFamily,
+        fontFamily: GoogleFonts.poppins().fontFamily,
         appBarTheme: const AppBarTheme(
           color: Colors.white,
           elevation: 0,
@@ -16,4 +16,7 @@ class Mytheme {
   static ThemeData darktheme(BuildContext context) => ThemeData(
         brightness: Brightness.dark,
       );
+
+  static Color creamColor = const Color(0xfff5f5f5);
+  static Color darkcolor = const Color(0x0000ff40);
 }
